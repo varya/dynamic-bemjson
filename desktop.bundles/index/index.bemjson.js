@@ -16,9 +16,16 @@
         },
         {
             block: 'content',
-            content: [
-                'main content'
-            ]
+            content: (function() {
+                var res = [];
+                for(var i = 0; i < 10; i++) {
+                    res.push({
+                        block: 'button',
+                        content: 'Button ' + (i + 1)
+                    });
+                }
+                return res;
+            })()
         },
         {
             block: 'footer',
