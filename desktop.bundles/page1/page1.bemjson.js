@@ -1,10 +1,10 @@
 ({
     block: 'page',
-    title: 'Title of the page',
+    title: '10 buttons',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'css', url: '_index.css', ie: false },
-        { elem: 'css', url: '_index.ie.css', ie: 'gte IE 6' },
+        { elem: 'css', url: '_page1.css', ie: false },
+        { elem: 'css', url: '_page1.ie.css', ie: 'gte IE 6' },
         { elem: 'meta', attrs: { name: 'description', content: '' }}
     ],
     content:[
@@ -33,6 +33,6 @@
                 'footer content goes here'
             ]
         },
-        { elem: 'js', url: '_index.js' }
+        { elem: 'js', url: '_page1.js' }
     ]
 })
