@@ -1,0 +1,32 @@
+/* page2.css begin */
+/* blocks/menu/menu.css begin */
+.menu
+{
+    width: 200px;
+}
+
+.menu__layout
+{
+    list-style: none;
+}
+
+.menu__item
+{
+    margin: 2px;
+    margin-right: 1em;
+    display: inline-block;
+    background: pink;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.menu__item_selected
+{
+    margin-right: 0;
+    background: #0062ff;
+    padding-right: 1.5em;
+}
+
+/* blocks/menu/menu.css end */
+
+/* page2.css end */
